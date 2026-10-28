@@ -22,3 +22,4 @@ Before running the application, make sure you have the following installed on yo
 2. **Ollama** installed and running locally with your target model:
    ```bash
    ollama run llama3.1
+   ```
