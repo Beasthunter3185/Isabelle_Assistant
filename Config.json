@@ -1,0 +1,16 @@
+{
+  "azure": {
+    "client_id": "cca2c6fc-7b2b-430f-bfdb-3b4d0eaeaa2f",
+    "tenant_id": "consumers",
+    "scopes": [
+      "User.Read", "Calendars.ReadWrite"
+    ]
+  },
+  "ollama": {
+    "model_name": "llama3.1"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8000
+  }
+}
