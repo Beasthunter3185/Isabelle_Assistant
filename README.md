@@ -1,14 +1,24 @@
-# Isabelle_Assistant
-A productivity desktop app project involving ollama, fastAPI, and a bunch of pastel colors displayed through Godot. Currently a work in progress.
 
+# Isabelle Assistant 🌸
 
-## Prerequisites
-1. **Python 3.10+** installed with `pip`.
-2. **Ollama** installed and running locally (`ollama run llama3.1`).
-3. **Godot 4.x** (optional, only if modifying source code).
+A cross-platform productivity desktop assistant built with a **Godot 4** transparent overlay frontend, a **Python FastAPI** backend, and local AI integration via **Ollama**. Designed with a clean, aesthetic pastel theme to help manage calendars, tasks, and daily scheduling.
 
-## Quick Start
-1. Clone the repository:
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Frontend:** Godot Engine 4.x (GDScript, transparent overlay window with click-through mouse passthrough regions).
+* **Backend:** Python FastAPI, Uvicorn, MSAL (Microsoft Graph API authentication).
+* **AI & Intelligence:** Local LLM routing via Ollama (`llama3.1`).
+* **Data Storage:** Local JSON persistence for tasks and configurations.
+
+---
+
+## 📋 Prerequisites
+
+Before running the application, make sure you have the following installed on your system:
+
+1. **Python (3.10 or higher)** installed with `pip`.
+2. **Ollama** installed and running locally with your target model:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   ollama run llama3.1
